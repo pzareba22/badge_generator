@@ -17,3 +17,8 @@ Then just execute the script:
 ```shell
 python3 main,py
 ```
+
+
+
+
+Please note that this code was not meant to be pretty or serve as a good example of how to interact with Python or the Reportlab library. It was written over 2 years ago at 3AM to solve a spefific issue, and I'm only sharing it here, since I've been asked for it n-th time :D.
