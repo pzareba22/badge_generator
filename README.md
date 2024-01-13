@@ -6,3 +6,14 @@ The program requires several files to be placed in the execution directory, in o
  - A list of names and titles, separated by a newline character. The entries should look as follows `Paweł Zaręba Event coordinator`. The file should be named `names.txt`, alternatively the `NAMES_FILE` variable can be modified to reflect the actual file name.
  - A background for the generated badges. The script assumes that it is called `background.jpg`, however this can be changed by modifying the `BACKGROUND_FILE` variable. The format of the background file shouldn't make a difference (however I have only tested this script with jpg files).
  - A specific font in `.ttf` format. This example uses `UnicaOne-Regular.ttf`, but any valid ttf file will work. To use a different file, modify the `FONT_FILE` variable.
+
+
+To run this code, first install the dependencies via:
+```shell
+pip install -r requirements.txt
+```
+
+Then just execute the script:
+```shell
+python3 main,py
+```
